@@ -1,22 +1,29 @@
 body {
-    font-family: 'Guro', Arial, sans-serif; /* Add your preferred font */
-    background-color: #f9f9f9; /* Soft background */
-    color: #333; /* Dark text for contrast */
+    font-family: 'Guro', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 header {
-    background: #2c3e50; /* Dark blue-grey */
-    color: #ecf0f1; /* Light text */
+    background: #2c3e50;
+    color: #ecf0f1;
     padding: 20px;
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 nav ul li {
+    display: inline;
     margin: 0 20px;
 }
 
-h2 {
-    color: #2980b9; /* Accent color for headings */
+.hero img {
+    width: 100%;
+    height: auto;
 }
 
 .project {
@@ -24,10 +31,10 @@ h2 {
     padding: 20px;
     border: 1px solid #dcdcdc;
     border-radius: 8px;
-    background: #fff; /* White background for projects */
+    background: #fff;
 }
 
 .project img {
-    width: 100%; /* Responsive image */
+    width: 100%;
     border-radius: 8px;
 }
