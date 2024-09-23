@@ -38,3 +38,22 @@ nav ul li {
     width: 100%;
     border-radius: 8px;
 }
+.header-image {
+    width: 100%;
+    height: auto; /* This keeps the aspect ratio */
+}
+
+header {
+    text-align: center; /* Center-align text */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
